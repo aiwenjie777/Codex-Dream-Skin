@@ -37,34 +37,20 @@
 > 本仓库基于 [Fei-Away/Codex-Dream-Skin](https://github.com/Fei-Away/Codex-Dream-Skin) 进行二次开发与维护，并遵循原项目的 [MIT License](./macos/LICENSE)。
 >
 > 原项目作者及贡献者保留其对应的版权声明；本仓库的新增和修改内容以提交记录为准。详见 [NOTICE.md](./macos/NOTICE.md)。
-
-## 赞助商
-
-<p align="center">
-  <a href="https://passion8.cc/register?aff=TuPe">
-    <img src="docs/images/sponsor-passion8.png" alt="Passion8" height="72">
-  </a>
-</p>
-
-<p align="center">
-  <strong>更智能的连接 · 更热爱的创造</strong><br>
-  <sub>热爱驱动 · 无限可能 · Connect AI · Power Creation</sub>
-</p>
-
-<p align="center">
-  感谢 <a href="https://passion8.cc/register?aff=TuPe"><strong>passion8.cc</strong></a> 赞助本项目。<br>
-  满血 AI 中转：官方模型直连，无降智、无套壳；一行配置接入 Codex / Claude Code / Grok。
-</p>
-
-<p align="center">
-  <sub>
-    换肤与 API 配置互相独立，本项目不会自动改写你的模型供应商设置。
-  </sub>
-</p>
+>
 
 ## 效果预览
 
 一张图，一种心情。下面都是可落地的主题示意效果：
+
+![e160a0ccf5ab668284bde06b3c18de85.png](assets/e160a0ccf5ab668284bde06b3c18de85.png)
+
+
+![_20260716155952_7928_40.png](assets/skin-11.png)
+
+![_20260716155953_7929_40.png](assets/skin-10.png)
+
+![skin01.png](assets/skin-09.png)
 
 <p align="center">
   <img src="docs/images/gallery/skin-01.jpg" alt="粉系定制" width="900"><br>
