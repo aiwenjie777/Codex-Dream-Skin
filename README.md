@@ -91,6 +91,8 @@
   <sub>舞台黑金</sub>
 </p>
 
+![image.png](assets/image.png)
+
 ## 它能做什么
 
 - **真·可交互**：侧栏、建议卡、项目选择、输入框都是原生控件，不是整窗假截图贴上去
@@ -102,10 +104,11 @@
 
 仓库内按平台放了现成脚本（实现细节不同，效果都是「主题化 Codex」）：
 
-| 平台 | 目录 | 入口 |
-|------|------|------|
-| Apple Silicon / Intel Mac | [`macos/`](./macos/) | 双击 `Install Codex Dream Skin.command` |
-| Windows | [`windows/`](./windows/) | `scripts/install-dream-skin.ps1` → `start-dream-skin.ps1` |
+
+| 平台                      | 目录                     | 入口                                                       |
+| ------------------------- | ------------------------ | ---------------------------------------------------------- |
+| Apple Silicon / Intel Mac | [`macos/`](./macos/)     | 双击`Install Codex Dream Skin.command`                     |
+| Windows                   | [`windows/`](./windows/) | `scripts/install-dream-skin.ps1` → `start-dream-skin.ps1` |
 
 更细的说明：
 
@@ -113,6 +116,13 @@
 - Windows：[`windows/SKILL.md`](./windows/SKILL.md)
 - 路径对照：[`docs/platforms.md`](./docs/platforms.md)
 - 项目记录：[`docs/PROJECT.md`](./docs/PROJECT.md)
+
+## 微信交流群
+
+<p align="center">
+  <img src="./docs/images/wechat-qr.png" alt="Codex Dream Skin 微信交流群二维码" width="260"><br>
+  <sub>扫码加入微信群。二维码有效期至 2026 年 7 月 23 日；失效后将更新。</sub>
+</p>
 
 ## 反馈与贡献
 
