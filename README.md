@@ -1,4 +1,4 @@
-# Codex Skin Switcher
+# Codex Skin Skill
 
 <p align="center">
   <strong>中文</strong> · <a href="./README.en.md">English</a>
@@ -132,8 +132,8 @@
 
 **二次开发与来源声明**
 
-本仓库基于 [Fei-Away/Codex-Dream-Skin](https://github.com/Fei-Away/Codex-Dream-Skin) 进行二次开发与维护，并遵循原项目的 [MIT License](https://github.com/aiwenjie777/codex-skin-switcher/blob/main/macos/LICENSE)。
+本仓库基于 [Fei-Away/Codex-Dream-Skin](https://github.com/Fei-Away/Codex-Dream-Skin) 进行二次开发与维护，并遵循原项目的 [MIT License](https://github.com/aiwenjie777/codex-skin-skill/blob/main/macos/LICENSE)。
 
-原项目作者及贡献者保留其对应的版权声明；本仓库的新增和修改内容以提交记录为准。详见 [NOTICE.md](https://github.com/aiwenjie777/codex-skin-switcher/blob/main/macos/NOTICE.md)。
+原项目作者及贡献者保留其对应的版权声明；本仓库的新增和修改内容以提交记录为准。详见 [NOTICE.md](https://github.com/aiwenjie777/codex-skin-skill/blob/main/macos/NOTICE.md)。
 
 Star 一下，然后挑一张图，把你的 Codex 变成今天想要的样子。

@@ -1,4 +1,4 @@
-# Codex Skin Switcher
+# Codex Skin Skill
 
 <p align="center">
   <a href="./README.md">中文</a> · <strong>English</strong>
