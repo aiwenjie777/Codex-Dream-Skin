@@ -11,6 +11,7 @@
 - 所有 README 统一补充 Skill 优先流程：可直接在对话中完成安装、图片换肤、列举与切换主题、截图验证和恢复；桌面入口与命令行仅作为备用方式。
 - 仓库插件名称统一为 `codex-skin-skill`，避免把插件名称与内部的主题切换 Skill 混淆。
 - 主 README 增加“一张图、一句话完成换肤”的对话示例，让 Skill 操作入口更直观。
+- 主 README 明确 Windows 同样支持 `codex-skin-skill` 全流程操作；PowerShell 命令只保留为手动排障入口。
 
 ---
 

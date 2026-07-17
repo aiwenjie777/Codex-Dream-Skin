@@ -14,8 +14,9 @@ description: Manage Codex desktop themes in this repository. Use when a user ask
 
 ## Actions
 
-1. Create a theme: use the sibling `codex-theme-creator` workflow, then offer to apply it.
-2. Apply or switch: macOS uses `macos/scripts/switch-theme-macos.sh`; Windows uses `windows/scripts/start-dream-skin.ps1 -RestartExisting -Theme <name>`.
-3. List available themes: use `windows/scripts/list-themes.mjs` on Windows or list the macOS theme library.
-4. Verify: use the platform verification script.
-5. Restore: use the platform restore script; do not remove user data unless explicitly asked.
+1. Install: run the platform installer directly. Do not ask the user to open a terminal or PowerShell unless they explicitly request manual steps.
+2. Create a theme: use the sibling `codex-theme-creator` workflow, then offer to apply it.
+3. Apply or switch: macOS uses `macos/scripts/switch-theme-macos.sh`; Windows uses `windows/scripts/start-dream-skin.ps1 -RestartExisting -Theme <name>`.
+4. List available themes: use `windows/scripts/list-themes.mjs` on Windows or list the macOS theme library.
+5. Verify: run the platform verification script and report the result.
+6. Restore: run the platform restore script; do not remove user data unless explicitly asked.

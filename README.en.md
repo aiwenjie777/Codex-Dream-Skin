@@ -51,9 +51,18 @@ After that, there is no terminal or Desktop handoff for normal use. Continue wit
 
 The skill handles installation, theme storage, application, and verification. It asks for confirmation before restarting Codex when a restart is actually required. The installed Desktop `Codex Skin.command` remains an optional manual fallback.
 
-### Windows
+### Windows (Skill supported too)
 
-See [`windows/`](./windows/). Run `scripts/install-dream-skin.ps1`, then `scripts/start-dream-skin.ps1`.
+After installing this repository's `codex-skin-skill` plugin, ask Codex directly:
+
+- “Install Codex Skin”
+- “Create and apply a Windows skin from this image”
+- “List installed Windows skins”
+- “Switch to the <theme name> skin”
+- “Verify the current skin”
+- “Restore the official Codex appearance”
+
+The skill runs the safe scripts under [`windows/`](./windows/) itself and asks before closing and restarting an existing Codex process. You do not need to open PowerShell; the script commands remain available only as a manual troubleshooting fallback.
 
 > After macOS installation, the engine is in `~/.codex/codex-dream-skin-studio`; images, theme state, and logs are in `~/Library/Application Support/CodexDreamSkinStudio`. The skin workflow does not read or rewrite Codex `config.toml`.
 
@@ -82,9 +91,9 @@ See [`windows/`](./windows/). Run `scripts/install-dream-skin.ps1`, then `script
 
 For more previews, image guidance, and macOS command-line options, see [`macos/README.md`](./macos/README.md).
 
-## Use the `codex-skin` skill
+## Use the `codex-skin-skill` plugin
 
-This is the recommended macOS workflow. After installing the global skill, tell Codex what you want to do:
+This is the recommended workflow on both macOS and Windows. After installing the plugin, tell Codex what you want to do:
 
 - “Install Codex Skin”
 - “Customize Codex Skin with this image”
@@ -93,9 +102,9 @@ This is the recommended macOS workflow. After installing the global skill, tell 
 - “Apply the active theme and verify it with a screenshot”
 - “Restore the official Codex appearance”
 
-Attach the image directly to the conversation; you do not need to copy it into a special folder first. The skill uses the project's safe operations for installation, customization, listing, switching, hot re-apply, verification, and restore. When a restart is needed, it asks first and then uses a one-shot, non-persistent handoff—no extra Desktop action is required.
+Attach the image directly to the conversation; you do not need to copy it into a special folder first. The skill selects the safe workflow for the current platform to install, customize, list, switch, apply, verify, or restore a skin. It asks before a restart. macOS uses a one-shot, non-persistent restart handoff; Windows invokes the authorized PowerShell workflow directly. Neither requires an extra Desktop action.
 
-The repository also includes an installable `codex-skin-skill` plugin with skin-management and theme-creation skills; its manifest is [`.codex-plugin/plugin.json`](./.codex-plugin/plugin.json).
+The plugin includes skin-management and theme-creation skills; its manifest is [`.codex-plugin/plugin.json`](./.codex-plugin/plugin.json).
 
 ## Safety
 
