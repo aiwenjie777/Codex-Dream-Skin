@@ -38,6 +38,11 @@
 
 之后无需打开终端或双击桌面文件，继续用自然语言操作即可：
 
+<p align="center">
+  <img src="docs/images/skill-one-line-demo.png" alt="把图片发给 Codex，并说用这张图片换 Codex Skin" width="327"><br>
+  <sub>发一张图片，说一句话，剩下的安装、保存与应用流程交给 Skill。</sub>
+</p>
+
 - “用这张图片换 Codex Skin”
 - “列出已安装皮肤”
 - “切换到「星航员」皮肤”

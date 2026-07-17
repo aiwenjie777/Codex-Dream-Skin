@@ -38,6 +38,11 @@ Tell Codex directly in the conversation:
 
 After that, there is no terminal or Desktop handoff for normal use. Continue with natural-language requests:
 
+<p align="center">
+  <img src="docs/images/skill-one-line-demo.png" alt="Attach an image and ask Codex to use it as the Codex Skin" width="327"><br>
+  <sub>Attach one image and say one sentence—the skill handles installation, storage, and application.</sub>
+</p>
+
 - “Use this image as my Codex Skin”
 - “List installed skins”
 - “Switch to the Astronaut skin”
