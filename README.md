@@ -90,7 +90,7 @@ Windows 入口与说明见 [`windows/`](./windows/)：先运行 `scripts/install
 
 把图片作为对话附件发来即可，不需要先复制到指定目录。Skill 会复用项目的安全脚本完成安装、定制、列举、切换、热应用、验证或恢复；需要重启时会先确认，再通过一次性、非常驻的交接任务完成，不要求用户在桌面继续操作。
 
-仓库也提供可安装的 `codex-skin-switcher` 插件入口，包含主题管理与主题创建两个 skill；其 manifest 位于 [`.codex-plugin/plugin.json`](./.codex-plugin/plugin.json)。
+仓库也提供可安装的 `codex-skin-skill` 插件入口，包含主题管理与主题创建两个 skill；其 manifest 位于 [`.codex-plugin/plugin.json`](./.codex-plugin/plugin.json)。
 
 ## 安全说明
 

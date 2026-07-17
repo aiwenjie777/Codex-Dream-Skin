@@ -90,7 +90,7 @@ This is the recommended macOS workflow. After installing the global skill, tell 
 
 Attach the image directly to the conversation; you do not need to copy it into a special folder first. The skill uses the project's safe operations for installation, customization, listing, switching, hot re-apply, verification, and restore. When a restart is needed, it asks first and then uses a one-shot, non-persistent handoff—no extra Desktop action is required.
 
-The repository also includes an installable `codex-skin-switcher` plugin with skin-management and theme-creation skills; its manifest is [`.codex-plugin/plugin.json`](./.codex-plugin/plugin.json).
+The repository also includes an installable `codex-skin-skill` plugin with skin-management and theme-creation skills; its manifest is [`.codex-plugin/plugin.json`](./.codex-plugin/plugin.json).
 
 ## Safety
 

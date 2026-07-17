@@ -2,7 +2,7 @@
 
 ## Recommended: use the Skill
 
-After installing this repository's `codex-skin-switcher` plugin, ask Codex directly:
+After installing this repository's `codex-skin-skill` plugin, ask Codex directly:
 
 - “List installed Windows skins”
 - “Switch Windows Codex to the <theme name> skin”
